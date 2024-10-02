@@ -1,0 +1,16 @@
+[package]
+name = "mitgen"
+version = "1.0.0"
+edition = "2021"
+authors = ["Graham Keenan <graham.keenan@outlook.com>"]
+license = "MIT"
+description = "MIT License Generator"
+readme = "README.md"
+homepage = "https://github.com/Tyrannican/mitgen"
+repository = "https://github.com/Tyrannican/mitgen"
+keywords = ["cli", "utility", "license", "mit"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+chrono = "0.4.38"
+clap = { version = "4.5.19", features = ["derive"] }
